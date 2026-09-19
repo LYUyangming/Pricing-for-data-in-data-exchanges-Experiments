@@ -22,7 +22,7 @@ IPA_average_x0=pd.Series([0]*N_max)
 PCPA_average_x0=pd.Series([0]*N_max)
 
 pbar=trange(N_max)
-#全局模拟
+
 for k in range(len(NN)):
     N=NN[k]
     prec=10**4
